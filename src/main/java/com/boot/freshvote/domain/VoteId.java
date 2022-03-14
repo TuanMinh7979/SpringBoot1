@@ -13,7 +13,7 @@ import java.io.Serializable;
 public class VoteId implements Serializable {
     private static final long serialVersionUID = -4372361735684407638L;
     @ManyToOne
-    private User user;
+    private UserModel user;
     @ManyToOne
     private Feature feature;
 
